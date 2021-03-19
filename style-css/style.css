@@ -1,0 +1,499 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+}
+
+
+/*header-logo*/
+
+.header{
+        position: relative;
+        display: flex;
+        align-items: center;
+        min-height: 70vh;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+}
+.logo-title{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 90px;
+    color: white;
+}
+.logo-img{
+    width: 210px;
+    margin: auto;
+}
+.title{
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+}
+
+
+/*Our Sweets*/
+
+.Our-Sweets{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.Our-text{
+    width: 100%;
+}
+.Our-text h1{
+    color: #DFC15E;
+    text-align: center;
+    font-size: 90px;
+}
+.Our-text p{
+    font-size: 16px;
+    text-align: center;
+    opacity: .8;
+}
+
+.Our-MiniMenu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    justify-items: center;
+    padding-top: 20px;
+}
+
+.food-block {
+    position: relative;
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #DFC15E;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .food-block:hover .overlay {
+    width: 100%;
+  }
+  
+  .text {  
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .text img{
+      width: 100px;
+  }
+
+/*tasty food*/
+
+ .tasty-food{
+     width: 100%;
+     background-color: rgb(66, 66, 66);
+     margin-bottom: 150px;
+ }
+.tasty-title{
+    padding-top: 100px;
+    margin: auto;
+    color: #DFC15E;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+}
+.tasty-text{
+    color: white;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.66;
+    padding: 20px;
+    width: 750px;
+    text-align: center;
+}
+
+.pr-name{
+    margin: auto;
+    font-weight: 700;
+    color:  #DFC15E;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+
+/*big-block*/
+
+.big-block{
+    margin-bottom: 150px;
+}
+
+.big-block img{
+    width: 540px;
+}
+.block-1{
+    margin: auto;
+    display: flex;
+}
+.block-text1{
+    width: 550px;
+    background-color: white;
+}
+.block-text1 h1{
+    color:#DFC15E ;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+.block-text1 p{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 700;
+}
+.block-text1 h2 img{
+    width: 180px;
+    margin: auto;
+}
+.block-text1 h2{
+    text-align: center;
+}
+
+/* nakrnr pakox efekt*/
+
+
+.cont {
+    position: relative;
+    width: 50%;
+  }
+  
+  .imagess {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #DFC15E;
+  }
+  
+  .cont:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+.text img{
+    width: 200px;
+}
+
+
+
+/*slide*/
+
+.slide-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+}
+.slide-img div{
+    margin: 20px; 
+}
+
+
+
+.slide-img >div >img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.slide-img>div >img:hover{
+    color: black;
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px){
+
+    /*header-logo*/
+
+    .logo-title{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        font-size: 30px;
+        color: white;
+    }
+    .logo-img{
+        width: 100px;
+        margin: auto;
+    }
+    .title{
+        display: grid;
+        grid-template-columns: auto;
+        margin: auto;
+    }
+    /*tasty food*/
+
+.tasty-food{
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    margin-bottom: 150px;
+}
+.tasty-title{
+   padding-top: 100px;
+   margin: auto;
+   color: #DFC15E;
+   text-align: center;
+   font-size: 35px;
+   font-weight: 700;
+}
+.tasty-text{
+   color: white;
+   margin: auto;
+   font-size: 12px;
+   line-height: 1.66;
+   padding: 20px;
+   width: 500px;
+   text-align: center;
+}
+
+.pr-name{
+   margin: auto;
+   font-weight: 700;
+   color:  #DFC15E;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 100px;
+}
+
+.cont{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+  /*header-logo*/
+  .logo-title{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+.logo-img{
+    width: 150px;
+    margin: auto;
+}
+.title{
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+}
+
+/*tasty food*/
+
+.tasty-food{
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    margin-bottom: 150px;
+}
+.tasty-title{
+   padding-top: 100px;
+   margin: auto;
+   color: #DFC15E;
+   text-align: center;
+   font-size: 35px;
+   font-weight: 700;
+}
+.tasty-text{
+   color: white;
+   margin: auto;
+   font-size: 12px;
+   line-height: 1.66;
+   padding: 20px;
+   width: 500px;
+   text-align: center;
+}
+
+.pr-name{
+   margin: auto;
+   font-weight: 700;
+   color:  #DFC15E;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 100px;
+}
+
+.cont{
+    display: none;
+}
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+  
+    /*header-logo*/
+
+    .logo-title{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        font-size: 70px;
+        color: white;
+    }
+    .logo-img{
+        width: 180px;
+        margin: auto;
+    }
+    .title{
+        display: grid;
+        grid-template-columns: auto;
+        margin: auto;
+    }
+
+    /*our-sweer*/
+    
+    .Our-text h1{
+        color: #DFC15E;
+        text-align: center;
+        font-size: 70px;
+    }
+    .Our-text p{
+        font-size: 12px;
+        text-align: center;
+        
+    }
+    
+     /*tasty food*/
+
+ .tasty-food{
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    margin-bottom: 150px;
+}
+.tasty-title{
+   padding-top: 100px;
+   margin: auto;
+   color: #DFC15E;
+   text-align: center;
+   font-size: 50px;
+   font-weight: 700;
+}
+.tasty-text{
+   color: white;
+   margin: auto;
+   font-size: 12px;
+   line-height: 1.66;
+   padding: 20px;
+   width: 700;
+   text-align: center;
+}
+
+.pr-name{
+   margin: auto;
+   font-weight: 700;
+   color:  #DFC15E;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 100px;
+}
+
+
+.cont{
+    display: none;
+}
+
+
+.block-1{
+    margin-left: 70px;
+}
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+.cont{
+    display: none;
+}
+.block-1{
+    margin-left: 170px;
+}
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+}
+
